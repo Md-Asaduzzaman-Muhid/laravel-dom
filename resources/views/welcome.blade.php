@@ -92,7 +92,7 @@
 
                     $crawler->filter(' #gusta-menu-item-1005687 > ul >li > a')->each(function ($node) {
                        print "1:". $node->text()."<br>";
-                        
+                        dd($node);
                     });
                     
 

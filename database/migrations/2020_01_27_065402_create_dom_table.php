@@ -15,6 +15,8 @@ class CreateDomTable extends Migration
     {
         Schema::create('dom', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('name');
+            $table->integer('url');
             $table->timestamps();
         });
     }
