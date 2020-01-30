@@ -35,29 +35,4 @@ foreach ($category as $fields) {
 }
 
 fclose($fp);
-//print_r($category);
-
-// $fp = fopen('cascadesciences.csv', 'w');
-    
-// print_r($category);
-// foreach ($category as $record)
-//     {
-//         $record_arr = array();
-//         foreach ($record as $value)
-//         {
-//             $record_arr[] = $value;
-//         }
-//         if($i == 0)
-//         {
-//           fputcsv($fp, array_keys((array)$record));
-//         }
-//         fputcsv($fp, array_values($record_arr));
-        
-//         $i++;
-//     }
-
-// fclose($fp);
-
-
-
 ?>
